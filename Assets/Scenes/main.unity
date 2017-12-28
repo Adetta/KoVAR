@@ -520,7 +520,7 @@ Prefab:
         type: 2}
       propertyPath: Picture
       value: 
-      objectReference: {fileID: 21300000, guid: f4f7913e3cbd91f419e10941d6b8967c,
+      objectReference: {fileID: 21300000, guid: 5510a558f182393438a425d814fafd19,
         type: 3}
     - target: {fileID: 114512785743686984, guid: a4406c96144a6d749823ac23914fe1a5,
         type: 2}
@@ -2055,7 +2055,7 @@ Prefab:
         type: 2}
       propertyPath: Picture
       value: 
-      objectReference: {fileID: 21300000, guid: a82a7d11812756b48829901b6968351f,
+      objectReference: {fileID: 21300000, guid: dd8ea53f916456e4c8267f96f249fca7,
         type: 3}
     - target: {fileID: 1638380936890242, guid: a4406c96144a6d749823ac23914fe1a5, type: 2}
       propertyPath: m_Name
