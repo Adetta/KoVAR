@@ -14,12 +14,16 @@ public class UIRoot : MonoBehaviour
     protected void Awake()
     {
         Panels = new Dictionary<NavigationButtonsController.ButtonType, BasePanel>();
-        foreach (var panelPrefab in PanelList)
+        /*        foreach (var panelPrefab in PanelList)
+                {
+                    var panel = Instantiate(panelPrefab);
+                    panel.transform.SetParent(this.transform, false);
+                    //panel.transform.localPosition = Vector3.zero;
+                    Panels.Add(panel.Type, panel);            
+                }*/
+        foreach (var panel in PanelList)
         {
-            var panel = Instantiate(panelPrefab);
-            panel.transform.SetParent(this.transform, false);
-            //panel.transform.localPosition = Vector3.zero;
-            Panels.Add(panel.Type, panel);            
+            Panels.Add(panel.Type, panel);
         }
         Navigation.OnTransition += NavigationOnTransition;
     }
