@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
+
 public class UIRoot : MonoBehaviour
 {
     private Dictionary<NavigationButtonsController.ButtonType, BasePanel> Panels;
@@ -18,7 +19,7 @@ public class UIRoot : MonoBehaviour
             var panel = Instantiate(panelPrefab);
             panel.transform.SetParent(this.transform, false);
             //panel.transform.localPosition = Vector3.zero;
-            Panels.Add(panel.Type, panel);
+            Panels.Add(panel.Type, panel);            
         }
         Navigation.OnTransition += NavigationOnTransition;
     }
