@@ -3271,7 +3271,7 @@ Prefab:
     - target: {fileID: 114512785743686984, guid: a4406c96144a6d749823ac23914fe1a5,
         type: 2}
       propertyPath: Name
-      value: "\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439"
+      value: "\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439 \u0422\u043A\u0430\u0447\u0435\u043D\u043A\u043E"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a4406c96144a6d749823ac23914fe1a5, type: 2}
