@@ -2052,7 +2052,7 @@ Prefab:
     - target: {fileID: 114512785743686984, guid: a4406c96144a6d749823ac23914fe1a5,
         type: 2}
       propertyPath: Name
-      value: "\u041A\u0441\u0435\u043D\u0438\u044F \u0415\u0448\u043A\u043E\u0432\u0430"
+      value: "\u041A\u0441\u0435\u043D\u0438\u044F \u0415\u043A\u0448\u043E\u0432\u0430"
       objectReference: {fileID: 0}
     - target: {fileID: 114512785743686984, guid: a4406c96144a6d749823ac23914fe1a5,
         type: 2}
